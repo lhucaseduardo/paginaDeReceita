@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    color: #573A37;
+    font-family: "Alice", serif;
+    line-height: 150%;
+}
+
+body {
+    background-color: #573824;
+    background-image: url(./assets/bg-image.png);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    -o-backdrop-filter: blur(5px);
+    -ms-backdrop-filter: blur(5px);
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 140%;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1,
+h2 {
+    color: #291B1A;
+    margin-bottom: 4px;
+}
+
+#page {
+    width: 800px;
+    padding: 24px;
+    background-color: #F0E8C2;
+    border-radius: 24px;
+    margin: 30px auto;
+}
+
+main {
+    padding: 24px;
+}
+
+section+section {
+    margin-top: 24px;
+}
+
+#about p+p {
+    margin-top: 12px;
+}
+
+ul li {
+    margin-left: 15px;
+}
